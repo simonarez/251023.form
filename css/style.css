@@ -1,0 +1,53 @@
+body {
+  display: inline-flex;
+  padding: 3rem 0.01rem 11.875rem 29.875rem;
+  justify-content: flex-end;
+  align-items: center;
+
+  font-family: "Inter";
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1.875rem;
+  background-color: var(--color-background);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: var(--form-button-radius);
+  padding: 2rem 1rem 3.5rem 1rem;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0.3rem 0.6rem gray; */
+}
+
+.form--header {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-heavy);
+  display: flex;
+  width: 32.125rem;
+  padding: 0.625rem;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.form--box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--box-outer-gap);
+}
+
+.form--box-name {
+  font-size: var(--font-size-medium);
+}
+
+.form--box-input {
+  background-color: var(--color-box);
+  width: var(--form-box-width);
+  padding: var(--form-box-padding);
+  border-radius: var(--form-button-radius);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and {
+}

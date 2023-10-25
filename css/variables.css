@@ -1,0 +1,27 @@
+:root {
+  --color-foreground: #222222;
+  --color-background: #fefefe;
+  --color-box: #eeeeee;
+
+  --font-size-base: 18px;
+  --font-size-regular: 1rem;
+  --font-size-medium: 1.125rem;
+  --font-size-large: 2rem;
+
+  --font-weight-regular: 400;
+  --font-weight-heavy: 700;
+
+  --form-box-width: 31.375rem;
+  --form-box-padding: 0.625rem 0.625rem 0.625rem 1.875rem;
+  --form-box-gap: 0.625rem;
+  --form-box-radius:border-radius: 0.9375rem;
+
+
+  --form-button-width: 3.75rem;
+  --form-button-height: 3.75rem;
+  --form-button-padding: 0.625rem;
+  --form-button-gap: 0.625rem;
+  --form-button-radius: 1rem;
+
+  --box-outer-gap: 0.8125rem;
+}
