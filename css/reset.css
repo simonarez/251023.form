@@ -47,3 +47,8 @@ button {
   overflow: visible;
   background: transparent;
 }
+
+textarea:focus,
+input:focus {
+  outline: none;
+

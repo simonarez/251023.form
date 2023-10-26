@@ -16,7 +16,7 @@ body {
   background-color: var(--color-background);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: var(--form-button-radius);
-  padding: 2rem 1rem 3.5rem 1rem;
+  padding: 2rem 1rem 3rem 1rem;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
   /* box-shadow: 0.3rem 0.6rem gray; */
 }
@@ -29,6 +29,7 @@ body {
   padding: 0.625rem;
   align-items: center;
   gap: 0.625rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .form--box {
@@ -40,6 +41,9 @@ body {
 
 .form--box-name {
   font-size: var(--font-size-medium);
+  margin-bottom: 0.5rem;
+  opacity: 0;
+  transition: opacity 350ms ease;
 }
 
 .form--box-input {
@@ -70,6 +74,6 @@ body {
   border-radius: var(--form-button-radius);
 }
 
-.form--button-arrow:hover {
-  color: ;
+.form:hover .form--box-name {
+  opacity: 1;
 }
