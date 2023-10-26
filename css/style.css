@@ -48,6 +48,7 @@ body {
   padding: var(--form-box-padding);
   border-radius: var(--form-button-radius);
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  border: 0;
 }
 
 .form--button-container {
@@ -67,4 +68,8 @@ body {
   padding: var(--form-button-padding);
   gap: var(--form-button-gap);
   border-radius: var(--form-button-radius);
+}
+
+.form--button-arrow:hover {
+  color: ;
 }
