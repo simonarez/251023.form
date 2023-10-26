@@ -7,6 +7,12 @@ body {
   font-family: "Inter";
 }
 
+.task-name {
+  position: relative;
+  justify-items: start;
+  padding: 3rem;
+}
+
 .form {
   display: flex;
   flex-direction: column;
